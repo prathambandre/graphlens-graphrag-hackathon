@@ -81,7 +81,7 @@ For multi-hop questions especially, this difference is dramatic. When the answer
 
 The entire project is open source:
 
-🔗 **GitHub**: [github.com/YOUR_REPO/graphlens](https://github.com)
+🔗 **GitHub**: [github.com/prathambandre/graphlens-graphrag-hackathon](https://github.com/prathambandre/graphlens-graphrag-hackathon)
 🎥 **Demo Video**: [Watch the 3-minute walkthrough](https://youtube.com)
 📊 **Live Dashboard**: Run locally with `python run.py`
 

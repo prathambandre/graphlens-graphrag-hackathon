@@ -55,8 +55,8 @@ GraphLens proves that **graph-based retrieval makes LLM inference faster, cheape
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_REPO/graphlens.git
-cd graphlens
+git clone https://github.com/prathambandre/graphlens-graphrag-hackathon.git
+cd graphlens-graphrag-hackathon
 
 # 2. Install dependencies
 pip install -r requirements.txt

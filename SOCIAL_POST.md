@@ -11,7 +11,7 @@ We proved that graph-based retrieval makes LLM inference:
 
 3 pipelines. Side-by-side. Real numbers.
 
-🔗 GitHub: [YOUR_LINK]
+🔗 GitHub: https://github.com/prathambandre/graphlens-graphrag-hackathon
 📝 Blog: [YOUR_LINK]
 
 #GraphRAGInferenceHackathon #TigerGraph #GraphRAG #AI #LLM
@@ -35,7 +35,7 @@ We built GraphLens — a system that proves graph-powered retrieval makes LLM in
 
 The insight? For complex queries, following entity relationships in a knowledge graph beats casting a wide net with vector similarity. Precision > recall when every token costs money.
 
-Check out the full project: [GITHUB_LINK]
+Check out the full project: https://github.com/prathambandre/graphlens-graphrag-hackathon
 Read the blog: [BLOG_LINK]
 
 Team: Pratham Bandre & Vinit Prajapati
