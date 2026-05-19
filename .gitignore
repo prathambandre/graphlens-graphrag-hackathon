@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+venv/
+.venv/
+env/
+
+# Data
+data/corpus/*.json
+data/corpus/*.txt
+data/corpus/*.csv
+*.faiss
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Metrics
+metrics.db
+
+# Models cache
+models/
+.cache/
