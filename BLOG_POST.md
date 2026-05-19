@@ -20,6 +20,8 @@ When you ask a complex question like *"How does TigerGraph's parallel processing
 
 **GraphLens** takes a different approach. Instead of retrieving text chunks based on surface-level similarity, we use a **knowledge graph** built on TigerGraph to perform **multi-hop entity traversal**.
 
+![GraphLens Architecture](https://raw.githubusercontent.com/prathambandre/graphlens-graphrag-hackathon/main/assets/architecture_diagram.png)
+
 Here's the key insight: **relationships matter more than similarity.**
 
 ### How It Works
@@ -42,6 +44,8 @@ We built and compared three distinct inference pipelines:
 All three pipelines use the same LLM, the same dataset (2M+ tokens), and the same evaluation framework.
 
 ## The Results: GraphRAG Wins on Every Metric
+
+![GraphLens Dashboard](https://raw.githubusercontent.com/prathambandre/graphlens-graphrag-hackathon/main/assets/dashboard_comparison_results.png)
 
 ### Token Efficiency
 GraphRAG used **67% fewer tokens** than Basic RAG per query. By retrieving only the most precisely relevant context through graph relationships, we dramatically reduced the input token count.

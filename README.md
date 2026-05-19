@@ -13,6 +13,8 @@
 
 GraphLens proves that **graph-based retrieval makes LLM inference faster, cheaper, and smarter** than basic RAG alone. We built 3 pipelines side-by-side and benchmarked them on 2M+ tokens of data:
 
+![GraphLens Comparison Dashboard](assets/dashboard_comparison_results.png)
+
 | Pipeline | Description | Token Efficiency |
 |----------|-------------|-----------------|
 | **LLM-Only** | Direct LLM call, no retrieval | Baseline |
@@ -21,6 +23,9 @@ GraphLens proves that **graph-based retrieval makes LLM inference faster, cheape
 
 ## 🏗️ Architecture
 
+![GraphLens System Architecture](assets/architecture_diagram.png)
+
+### Pipeline Flow Detail
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    STREAMLIT DASHBOARD                       │
